@@ -1,5 +1,7 @@
 /*@font-face {font-family: FontAwesome; src: url(../../font/fa-brands-400.ttf);}*/
 .body_spacing_class{width: 94%;float: left;margin:3% 3% 0;}
+ul, li {margin: 0;padding: 0;list-style: none;}
+a{text-decoration: unset;}
 
 /*navbar + banner css start*/
 .fixed-top.navbar-expand-sm.scrolled{top:0;background: #ccbcaf; transition: background-color 0.2s linear;}
@@ -7,6 +9,12 @@
 .fixed-top.navbar-expand-sm{top:40px;}
 .vimeo-wrapper{background: url(../image/banner1.jpg);background-size: cover;width: 100%;height: 96vh;background-position: bottom;}
 .nav-link{color: #a5b8b6;letter-spacing: 1px;text-transform: uppercase;font-weight: 600;}
+.nav-link:focus, .nav-link:hover{color: #a5b8b6;}
+.custom_menu li.nav-item {margin: 0 15px 0 0;}
+.custom_menu a.nav-link {position: relative;}
+.custom_menu a.nav-link:before {content: "";position: absolute;top: 0;right: 0;left: 0;border-bottom: 1px solid transparent;bottom: 0;width: 10%;}
+.custom_menu a.nav-link:hover::before {width: 100%;transition: all ease 0.5s;border-bottom: 1px solid #a5b8b6;}
+.custom_menu ul.dropdown-menu.show {border: unset;padding: 20px 10px;}
 .banner_text h4 {font-size: 20px;}
 .banner_text h1 {font-size: 56px;font-weight: bold;text-transform: uppercase;margin: 0;}
 .banner_video {height: 360px;width: 100%;}
@@ -19,7 +27,7 @@
 .service_cards .card-body{padding: 30px;transition: all ease 0.5s;border: 1px solid #4a4049;border-radius: 15px;/*background: #CCBCAD;}*/}
 .service_cards .card-body:hover{background: #4a4049;border-color: #4a4049;border-radius: 30px;transition: all ease 0.5s;box-shadow:6px 6px 0px #eee;/*transform: scale(1.1);*/}
 .service_cards .card-body:hover a{color: white;}
-.service_cards .card-body a {color: unset;text-decoration: unset;}
+.service_cards .card-body a, .blog .card-body a{color: unset;text-decoration: unset;}
 
 /*testimonial css start*/
 .same_heading h5 {FONT-SIZE: 50px;color: #CCBCAD;font-weight: 800;}
@@ -29,3 +37,73 @@
 
 /*portfolio css start*/
 .bg_light{background-color:rgba(248, 248, 248, 0.8);}
+
+.f_white{color: white;}
+.pink_bg{background-color:#CCBCAD;}
+.same_heading h5.f_white{color: white;}
+.reviews_cl {background: white;}
+.reviews_cl h6 {color: #aaa;font-weight: 400;text-align: justify;line-height: 28px;}
+.clnt_details img {width: 50px;}
+
+.blog a.btn{
+    background: #CCBCAD;
+    color: white;
+    border-color: #CCBCAD;
+}
+.blog a.btn:hover{background-color: #212529;border-color: #212529;}
+
+.foot_bg{background-color: #212529;}
+.foot_2blck ul li a{line-height: 34px;}
+.foot_3blck li {
+    line-height: 32px;
+    float: left;
+    width: 100%;
+}
+.foot_3blck li span {
+    width: 24%;
+    float: left;
+}
+.foot_3blck li a {
+    float: left;
+    width: 76%;
+    color: white;
+}
+.foot_3blck li:nth-child(3) {
+    border-top: 1px solid #fff;
+    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+}
+.copyright_sec {
+    border-top: 1px solid #575757;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
